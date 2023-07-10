@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #E554731A;
+    
+    
+}
+.sub-headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0px 120px;
+}
+.head-1{
+
+ color: #272727;
+ font-size: 55px;
+ font-weight: 600px;
+
+}
+.paragraph-1{
+ color: rgba(39, 39, 39, 0.60);
+ font-size: 18px;
+ font-weight: 400;
+ margin-top: 15px;
+}
+.btn{
+   background: #E55473; 
+   border: none;
+   border-radius: 6px; 
+   padding:10px 23px;
+   color: white;
+   margin-top: 15px;
+}
+
+.img-10{
+    max-width: 400px;
+}
