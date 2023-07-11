@@ -210,3 +210,30 @@ font-weight: 800;
  .tittle-3{
     margin-right: 100px;
  }
+
+ .footer-container{
+    background-color: #111010;
+    text-align: center;
+    height: 33-0px;
+  
+
+ }
+ .about-footer{
+    padding: 95px;
+ }
+ .tittle-footer1{
+    color: #FFFFFF;
+    font-size: 50px;
+ }
+ .tittle-footer2{
+ color: #FFFFFFE5;
+ margin-top: 10px;
+ }
+ .tittle-footer3{
+    color: #FFFFFF66;
+    margin-top: 20px;
+    font-size: 10px;
+ }
+ hr{
+    margin-bottom: 10px;
+ }
