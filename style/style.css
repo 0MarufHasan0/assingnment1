@@ -38,69 +38,123 @@ header{
 .img-10{
     max-width: 400px;
 }
-.flower-list{
- 
-}
-.flower-head{
+
+.flower-tittle{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
-
-.flower-container{
-    padding: 20px;
-    display: flex;
-    justify-content:space-between;
-  
-}
-
-.img-6{
-  background-color: #A7216226;
-  border:none;
-  border-top-left-radius: 300px; 
-  border-top-right-radius: 300px;
-  padding: 20px 30px 0px 30px;
-}
-.img-5{
- 
-  background-color:#0597A026 ;
-  border:none;
-  border-top-left-radius: 300px; 
-  border-top-right-radius: 300px;
-  padding: 39px;
-  
- 
-}
-.img-7{
-    background-color: #477D1126;
-    border: none;
-    border-top-left-radius: 300px; 
-    border-top-right-radius: 300px; 
-    padding: 0px 30px 0px 30px;
-  
-}
-.icon{
-    display:flex;
-    justify-content: space-around;
-    background-color: #2727270D;
-    padding: 100px;
-    margin: 130px 90px;
-}
-.icon a{
-    align-items: center;
-}
-.about{
-    background-color: #E554730D;
+.feature-flower-head{
+    font-size: 40px;
+    
     
 }
-.sub-about{
+
+.feature-flower-discription{
+    font-size: 19px;
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+   
+}
+
+.feature-flower-images{
+    margin-top: 10px;
+    padding: 20px 130px ;
     display: flex;
     align-items: center;
     justify-content:space-around;
-    margin:  50px 150px;
-    padding-top: 100px;
+    gap: 100px;
+ 
 }
-    
-.img-8-8{
-    height: 500px;
 
-    
+#feature-flower-imagess{
+    width: 80%;
+    align-items: center;
 }
+
+.feature-flowe-bg{
+    height: 400px;
+    width: 300px;
+    border-radius: 200px 200px 0px 0px;
+    margin: 40px auto;
+    justify-content: space-around;
+}
+
+.feature-flower-img6{
+    background-color: #A7216226;
+   
+}
+
+ .feature-flower-img5{
+    background-color: #0597A026;
+ }
+ .feature-flower-img7{
+    background-color: #477D1126;
+   
+ }
+ .feature-flower-link{
+    color: #272727;
+    
+    
+ }
+ .link{
+margin-left: 80px;
+margin-bottom: 10px;
+font-size:20px;
+font-weight: 1000;
+ }
+ .flower-service{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+   background:#2727270D; 
+   border-radius: 10px;
+   margin: 100px 100px;  
+ }
+ .icon-img{
+  margin-bottom:10px ;
+ }
+ .our-service{
+    padding-left: 130px;
+   
+ }
+ .offer-discription{
+    margin: 70px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E554730D;
+    text-align: center;
+    padding:50px 70px  ;
+    border-radius: 8px;
+ }
+ .offer-head{
+   color: #272727;
+   font-size: 40px;
+font-weight: 800;
+
+ }
+ .offer-details{
+   color: #27272799;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 23px;
+ }
+ .discount{
+    color: #E55473;
+ }
+#offer-img-8{
+    width: 300px;
+    height: 400px;
+}
+.offer-btn{
+   padding:20px 40px;
+   background: #E55473; 
+   color: white;
+   border: none;
+   border-radius: 5px; 
+   margin-top: 23px;
+  
+}
+
+ 
