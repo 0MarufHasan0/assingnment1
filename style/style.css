@@ -2,11 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 header{
-    background-color: #E554731A;
-    
-    
-    
+    background-color: #E554731A;  
 }
 .sub-headers{
     display: flex;
@@ -234,6 +234,4 @@ font-weight: 800;
     margin-top: 20px;
     font-size: 10px;
  }
- hr{
-    margin-bottom: 10px;
- }
+ 
