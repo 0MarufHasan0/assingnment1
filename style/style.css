@@ -5,21 +5,54 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* Menu bar Section */
+.menu-container{
+   background-color: rgb(255, 196, 217);
+   padding: 10px;
+   color: aliceblue;
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+}
+.home-menu{
+   display: flex;
+   cursor: pointer;
+}
+.menu-margin:hover{
+   color: rgb(240, 114, 83);
+   cursor: pointer;
+}
+.menu-margin{
+   margin-right: 10px;
+   padding-right: 8px;
+   font-size: 18px;
+   color: #1b3d3e;
+}
+.menu-bar{
+   display: flex;
+}
+
+
+/* Header Section */
 header{
-    background-color: #E554731A;  
+   background-color: #E554731A;
+  
+    
+   
 }
 .sub-headers{
-    display: flex;
+   display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  0px 120px;
+    margin:  0px 140px;  
+    
 }
 .head-1{
 
  color: #272727;
  font-size: 55px;
  font-weight: 600px;
-
 }
 .paragraph-1{
  color: rgba(39, 39, 39, 0.60);
@@ -34,11 +67,13 @@ header{
    padding:10px 23px;
    color: white;
    margin-top: 15px;
+   cursor: pointer;
 }
 
 .img-10{
-    max-width: 400px;
+    max-width: 400px; 
 }
+/* Main Section part 1 */
 
 .flower-tittle{
     text-align: center;
@@ -104,6 +139,7 @@ margin-bottom: 10px;
 font-size:20px;
 font-weight: 1000;
  }
+ /* Main Section Part 2 */
  .flower-service{
     display: flex;
     text-align: center;
@@ -119,6 +155,7 @@ font-weight: 1000;
     padding-left: 130px;
    
  }
+ /* Main Section Part 3 */
  .offer-discription{
     margin: 70px 0px 50px 0px;
     display: flex;
@@ -155,8 +192,10 @@ font-weight: 800;
    border: none;
    border-radius: 5px; 
    margin-top: 23px;
+   cursor: pointer;
   
 }
+/* Main Section Part 4 */
 .gallery-container-head{
     text-align: center;
 }
@@ -182,6 +221,7 @@ font-weight: 800;
     box-shadow: 0px 6px 6px 0px grey;
     margin-top: 30px;
 }
+/* Main Section Part 5 */
  .subscribe-container{
     background-image: url("../style/flower-bg/Rectangle\ 9.png");
     background-position: center;
@@ -206,10 +246,12 @@ font-weight: 800;
  }
  .btn3{
     padding: 16px 30px 16px 30px;
+    cursor: pointer;
  }
  .tittle-3{
     margin-right: 100px;
  }
+ /* Main Section Part 6 */
 
  .footer-container{
     background-color: #111010;
